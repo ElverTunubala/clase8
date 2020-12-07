@@ -1,0 +1,70 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0; /* rrelleno*/
+    margin:0; /* */
+    border:0 /* */
+}
+header{
+    background-color:#CD5C5C;
+}
+#header-logo{
+    width:64px; /* rrelleno*/
+    height:64px;
+}
+
+#header-msg{
+    font-size: 25px; 
+    color: white;
+}
+#btnOne{
+    background-color:#DC143C;
+    color:white;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #1984bc;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.5),
+        rgba(131, 131, 173, 0.5)
+      ),
+      url(https://as01.epimg.net/colombia/imagenes/2020/08/21/actualidad/1598040700_184330_1598040929_noticia_normal_recorte1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #valor ,#Descuento,#Total{ 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #FFA07A;}
